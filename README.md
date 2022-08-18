@@ -46,7 +46,18 @@ Crate a simple calculator app.  A very-very simple app to do a basic math calcul
 
 #
 
-# Lesson 4 - Consuming API
+# Lesson 4 - Routing And Navigation
+1. Route and Navigating between page using this [Library](https://reactnavigation.org/docs/native-stack-navigator/)
+2. Create basic navigation using stack navigation, to navigate between page, and create route back from current page to previous page
+3. Create Bottom Navigation tabs.  Move between page with Bottom Tabs Navigation still exist on the screen
+### Lesson 4 - Extra
+1. Create navigation with Stack navigation and Bottom Tabs navigation
+### Lesson 4 - Mini Project
+Create app like Instagram.  Just to get navigation and routing.  Create a page called HomePage, and Profile, in each page just render a Text contain a name of each page it self.  Place it inside Bottom tabs, so when you move between home page and profile page, the bottom tabs still render on the screen.  Then, this is the tricky parts, create a button in Home page and this button will point to your previous project which is simple calculator, and the text and the button should be in the center of the screen.  Finally when you are in simple calculator page, you can go back to home page with a button press.  Ok that is it, Simple right?? Good Luck!! 
+
+#
+
+# Lesson 5 - Consuming API
 1. Install axios library using npm
 2. Do CRUD operation using API
 3. Displaying success and error when consuming API
